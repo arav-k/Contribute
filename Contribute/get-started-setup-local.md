@@ -136,7 +136,7 @@ After cloning the repository, set up a read-only remote connection to the main r
 
 2. View the configured values and confirm the URLs are correct. Ensure the **origin** URLs point to your personal fork. Ensure the **upstream** URLs point to the main repository, such as MicrosoftDocs or Azure. 
    ```bash
-   git remote -v 
+   git remote --v 
    ```
 
    Example remote output is shown. A fictitious git account named MyGitAccount is configured with a personal access token to access the repo azure-docs:
